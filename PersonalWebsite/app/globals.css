@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 26, 26, 46;
+  --background-end-rgb: 26, 26, 46;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+  font-family: "Courier New", monospace;
+  overflow: hidden;
+}
+
+.animation-delay-300 {
+  animation-delay: 3s;
+}
+
+.animation-delay-500 {
+  animation-delay: 5s;
+}
+
+.animation-delay-1000 {
+  animation-delay: 10s;
+}
+
